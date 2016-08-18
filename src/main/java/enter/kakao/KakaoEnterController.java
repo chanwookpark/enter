@@ -20,11 +20,6 @@ public class KakaoEnterController {
     @Autowired
     private KakaoApi api;
 
-    @RequestMapping("/kakao/login.page")
-    public String loginPage() {
-        return "kakao-login";
-    }
-
     @RequestMapping("/kakao/login-request")
     public String loginRequestToKakao() {
 
